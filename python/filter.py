@@ -12,3 +12,7 @@ filtered_arr : list[int] = list(filter(func,arr))
 filtered_arr1 : list[int] = list(filter(lambda element : element%2==0,arr))
 print(filtered_arr)
 print(filtered_arr1)
+
+print('Natural Number Filter')
+filtered_natural : list[int] = list(filter(lambda data : data%2==0,range(0,201)))
+print(filtered_natural)
